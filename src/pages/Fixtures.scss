@@ -1,0 +1,44 @@
+.fixtures{
+
+    
+    &.header {
+        margin-top: 10px;
+     }
+}
+
+
+
+
+ .fixture{
+     p{
+         color : black;
+     }
+    .accordion {
+        width : 100%;
+    }
+    .card{
+
+        width : 100%;
+        align-items: center;
+        &.header{
+            padding : 0;
+        }
+    }
+ }
+
+table tr{
+    align-items: center;
+    justify-content: center;
+}
+
+.cusbutton {
+    background-color: white;
+}
+
+.cusicon {
+    color: #000;
+}
+
+.datepicker {
+    border: hidden;
+}

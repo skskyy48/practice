@@ -1,0 +1,20 @@
+.home{
+    background: black;
+    
+    img{
+        width: 50;
+        height: 30;
+    }
+
+    &.fixtures{
+        overflow: auto;
+        white-space: nowrap;
+        flex-direction: row;
+
+    }
+
+    &.leagues{
+        flex-direction: row;
+    }
+}
+

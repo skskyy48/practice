@@ -1,0 +1,6 @@
+export {default as Home} from './Home'
+export {default as About} from './About'
+export {default as Fixtures} from './Fixtures'
+export {default as Leauges } from './Leagues'
+export {default as FixtureInfo } from './FixtureInfo'
+export { default as TeamInfo } from './TeamInfo'

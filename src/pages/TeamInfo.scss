@@ -1,0 +1,48 @@
+.info{
+    overflow: hidden;
+}
+
+header::before {
+    content: "";
+display: block;
+position: absolute;
+margin-left: 0;
+min-width: 100%;
+min-height: 12em;
+z-index: -1;
+opacity: 0.4;
+}
+
+.header::after {
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+
+.header {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.header:hover{
+    opacity: 1;
+}
+
+
+.container{
+    text-align: start;
+
+    .container h1{
+        font-weight: bold;
+        color :black;
+    }
+
+    .container p{
+        color : gray;
+    }
+    
+}
+
+
+

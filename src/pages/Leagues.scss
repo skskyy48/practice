@@ -1,0 +1,10 @@
+.leagues {
+    display: flex;
+    flex : 1;
+    flex-direction: column;
+    justify-content: center;
+
+    &.leagueButton {
+        flex-direction: row;
+    }
+}
